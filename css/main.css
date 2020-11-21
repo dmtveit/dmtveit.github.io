@@ -1,7 +1,7 @@
 :root {
     /* font */
     --font: 'Helvetica', 'Arial', 'Sans-Serif';
-    --font-size-big: 2.5rem;
+    --font-size-big: 2rem;
     --font-size-medium: 1.5rem;
     --font-size-normal: 1rem;
     --font-size-small: 0.75rem;
@@ -22,8 +22,8 @@
     --width-wide: 100%;
     --width-narrow: 490px;
     /* height */
-    --height-top-header: 15rem;
-    --height-sticky-header: 5rem;
+    --height-top-header: 12rem;
+    --height-sticky-header: 3rem;
     --height-total-header: calc(var(--height-top-header) + var(--height-sticky-header));
     --height-bottom-footer: var(--height-top-header);
     --height-sticky-footer: var(--height-sticky-header);
