@@ -8,12 +8,12 @@
     /* color */
     --color-text: rgb(50, 50, 50);
     --color-header-text: rgb(250, 250, 250);
-    --color-link: rgb(150, 150, 150);
+    --color-link: rgb(100, 100, 100);
     --color-separator: #d5d5d5;
     --color-body-background: #ecf0f1;
     --color-header-background: hsl(205, 70%, 60%);
     --color-sticky-header-background: hsl(205, 70%, 55%);
-    --color-footer-background: var(--color-sticky-header-background);
+    --color-footer-background: var(--color-header-background);
     /* width */
     --width-page: 980px;
     --width-normal: 980px;
@@ -185,6 +185,9 @@ a {
 a:hover {
     text-decoration: underline;
 }
-.navlink {
+.headerlink {
+    color: var(--color-header-text);
+}
+.footerlink {
     color: var(--color-header-text);
 }
