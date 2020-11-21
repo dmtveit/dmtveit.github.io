@@ -206,5 +206,6 @@ a:hover {
 
 /* iframe (for contact page) */
 iframe {
-    display: block;
+    /*display: block;*/
+    margin: auto;
 }
