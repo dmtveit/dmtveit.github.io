@@ -20,8 +20,8 @@
     --width-wide: 100%;
     --width-narrow: 490px;
     /* height */
-    --height-top-header: 200px;
-    --height-sticky-header: 100px;
+    --height-top-header: 10rem;
+    --height-sticky-header: 5rem;
     --height-total-header: calc(var(--height-top-header) + var(--height-sticky-header));
     --height-bottom-footer: var(--height-top-header);
     --height-sticky-footer: var(--height-sticky-header);
