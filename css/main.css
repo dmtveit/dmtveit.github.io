@@ -169,7 +169,8 @@ main {
 .page {
     width: 100%;
     margin-top: 20px;
-    /*margin-bottom: 20px;*/
+    padding: 2rem;
+    box-sizing: border-box;
     background-color: #fff;
     overflow: auto;
     box-shadow: var(--box-shadow);
