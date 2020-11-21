@@ -1,6 +1,7 @@
 :root {
     /* font */
     --font: 'Helvetica', 'Arial', 'Sans-Serif';
+    --font-size-huge: 3rem;
     --font-size-big: 2rem;
     --font-size-medium: 1.5rem;
     --font-size-normal: 1rem;
@@ -199,7 +200,7 @@ a:hover {
     margin: var(--nav-item-margin);
 }
 .footerlink {
-    font-size: var(--font-size-normal);
+    font-size: var(--font-size-huge);
     color: var(--color-header-text);
     margin: var(--nav-item-margin);
 }
