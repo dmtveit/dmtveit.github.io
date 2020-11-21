@@ -26,7 +26,9 @@
     --height-bottom-footer: var(--height-top-header);
     --height-sticky-footer: var(--height-sticky-header);
     /* margin */
-    --nav-item-margin: 20px;
+    --header-title-right-margin: 2em;
+    --header-title-bottom-margin: 1em;
+    --nav-item-margin: 1em;
     /* box-shadow */
     --box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.25);
 }
@@ -146,6 +148,9 @@ header nav ul li, footer nav ul li {
     bottom: 0;
     right: 0;
     color: var(--color-header-text);
+    margin-right: var(--header-title-right-margin);
+    margin-bottom: var(--header-title-bottom-margin);
+    margin-top: 0;
 }
 
 /* main */
