@@ -31,6 +31,7 @@
     --header-title-left-margin: 0.75em;
     --header-title-bottom-margin: 0.5em;
     --nav-item-margin: 1em;
+    --page-margin: 2rem;
     /* box-shadow */
     --box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.25);
 }
@@ -180,10 +181,7 @@ main {
     box-shadow: var(--box-shadow);
 }
 section {
-    padding-left: 20px;
-    padding-right: 20px;
-    padding-top: 0;
-    padding-bottom: 0;
+    padding: 0;
 }
 
 
@@ -204,4 +202,9 @@ a:hover {
     font-size: var(--font-size-normal);
     color: var(--color-header-text);
     margin: var(--nav-item-margin);
+}
+
+/* iframe (for contact page) */
+iframe {
+    display: block;
 }
