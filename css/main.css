@@ -28,7 +28,7 @@
     --height-bottom-footer: var(--height-top-header);
     --height-sticky-footer: var(--height-sticky-header);
     /* margin */
-    --header-title-right-margin: 1em;
+    --header-title-left-margin: 0.75em;
     --header-title-bottom-margin: 0.5em;
     --nav-item-margin: 1em;
     /* box-shadow */
@@ -148,9 +148,9 @@ header nav ul li, footer nav ul li {
 #header-title {
     position: absolute;
     bottom: 0;
-    right: 0;
+    left: 0;
     color: var(--color-header-text);
-    margin-right: var(--header-title-right-margin);
+    margin-left: var(--header-title-left-margin);
     margin-bottom: var(--header-title-bottom-margin);
     margin-top: 0;
 }
