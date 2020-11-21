@@ -15,7 +15,9 @@
     --color-header-text:var(--color-body-background);
     --color-separator: rgb(200, 200, 200);
     /* width */
-    --width-page: 980px;
+    --width-page: 50wv;
+    --width-page-min: 40rem;
+    --width-page-max: 55rem;
     --width-normal: 980px;
     --width-wide: 100%;
     --width-narrow: 490px;
@@ -141,7 +143,7 @@ header nav ul, footer nav ul {
 }
 header nav ul li, footer nav ul li {
     /* padding around navigation items */
-    margin: var(--nav-item-margin);
+    margin: 0;
 }
 #header-title {
     position: absolute;
@@ -157,6 +159,8 @@ header nav ul li, footer nav ul li {
 main {
     margin: auto;
     width: var(--width-page);
+    min-width: var(--width-page-min);
+    max-width: var(--width-page-max);
 }
 #main-container {
     width: 100%;
@@ -192,10 +196,12 @@ a:hover {
     text-decoration: underline;
 }
 .headerlink {
-    font-size: var(--font-size-medium);
+    font-size: var(--font-size-normal);
     color: var(--color-header-text);
+    margin: 1em;
 }
 .footerlink {
     font-size: var(--font-size-normal);
     color: var(--color-header-text);
+    margin: 1em;
 }
