@@ -20,7 +20,7 @@
     --width-wide: 100%;
     --width-narrow: 490px;
     /* height */
-    --height-top-header: 10rem;
+    --height-top-header: 15rem;
     --height-sticky-header: 5rem;
     --height-total-header: calc(var(--height-top-header) + var(--height-sticky-header));
     --height-bottom-footer: var(--height-top-header);
@@ -192,8 +192,10 @@ a:hover {
     text-decoration: underline;
 }
 .headerlink {
+    font-size: var(--font-size-medium);
     color: var(--color-header-text);
 }
 .footerlink {
+    font-size: var(--font-size-normal);
     color: var(--color-header-text);
 }
