@@ -94,7 +94,7 @@ header {
     position: relative;
     /* header background */
     background-image: url(/images/header_img.svg);
-    background-size: contain;
+    background-size: cover;
     background-repeat: no-repeat;
 }
 #sticky-header {
