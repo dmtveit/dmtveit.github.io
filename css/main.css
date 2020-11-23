@@ -1,8 +1,8 @@
 :root {
     /* font */
     --font: 'Helvetica', 'Arial', 'Sans-Serif';
-    --font-size-huge: 2.75rem;
-    --font-size-big: 2rem;
+    --font-size-huge: 2.5rem;
+    --font-size-large: 2rem;
     --font-size-medium: 1.5rem;
     --font-size-normal: 1rem;
     --font-size-small: 0.75rem;
@@ -23,7 +23,7 @@
     --width-wide: 100%;
     --width-narrow: 490px;
     /* height */
-    --height-top-header: 13rem;
+    --height-top-header: 15rem;/* 13 */
     --height-sticky-header: 4.5rem;
     --height-total-header: calc(var(--height-top-header) + var(--height-sticky-header));
     --height-bottom-footer: var(--height-top-header);
@@ -46,7 +46,7 @@ body {
     background-color: var(--color-body-background);
 }
 h1 {
-    font-size: var(--font-size-big);
+    font-size: var(--font-size-large);
     font-family: var(--font);
     color: var(--color-text);
 }
@@ -92,6 +92,7 @@ header {
     background-color: var(--color-header-background);
     /* position content inside header */
     position: relative;
+    background-image: url(/images/header_img.svg);
 }
 #sticky-header {
     /* sticky header size */
@@ -148,6 +149,7 @@ header nav ul li, footer nav ul li {
     margin: 0;
 }
 #header-title {
+    font-size: var(--font-size-huge);
     position: absolute;
     bottom: 0;
     left: 0;
