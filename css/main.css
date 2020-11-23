@@ -92,7 +92,10 @@ header {
     background-color: var(--color-header-background);
     /* position content inside header */
     position: relative;
+    /* header background */
     background-image: url(/images/header_img.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
 }
 #sticky-header {
     /* sticky header size */
