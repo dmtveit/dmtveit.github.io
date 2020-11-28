@@ -93,7 +93,8 @@ header {
     /* position content inside header */
     position: relative;
     /* header background */
-    background-image: url(/images/header_img.svg);
+    background-image: linear-gradient(to bottom, #52a5e000,#52a5e0ff), url(/images/header_img.svg);
+
 }
 #sticky-header {
     /* sticky header size */
