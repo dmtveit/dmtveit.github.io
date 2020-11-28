@@ -157,6 +157,28 @@
            style="opacity:1;fill:#ff00ff;fill-opacity:1;stroke:none;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke" />
       </g>
     </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath916-6">
+      <g
+         id="g922-1"
+         style="stroke-width:1">
+        <rect
+           y="103.85417"
+           x="138.90625"
+           height="1.3229166"
+           width="3.96875"
+           id="rect918-2"
+           style="opacity:1;fill:#ff00ff;fill-opacity:1;stroke:none;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke" />
+        <rect
+           y="101.20834"
+           x="138.90625"
+           height="1.3229166"
+           width="3.96875"
+           id="rect920-0"
+           style="opacity:1;fill:#ff00ff;fill-opacity:1;stroke:none;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke" />
+      </g>
+    </clipPath>
   </defs>
   <sodipodi:namedview
      id="base"
@@ -165,9 +187,9 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="1.9275568"
-     inkscape:cx="1.3552042"
-     inkscape:cy="55.970257"
+     inkscape:zoom="7.7102272"
+     inkscape:cx="23.534623"
+     inkscape:cy="23.93604"
      inkscape:document-units="mm"
      inkscape:current-layer="layer1"
      showgrid="true"
@@ -176,7 +198,9 @@
      inkscape:window-x="-8"
      inkscape:window-y="-8"
      inkscape:window-maximized="1"
-     inkscape:document-rotation="0">
+     inkscape:document-rotation="0"
+     inkscape:snap-bbox="true"
+     inkscape:snap-bbox-edge-midpoints="true">
     <inkscape:grid
        type="xygrid"
        id="grid815"
@@ -191,7 +215,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -334,5 +358,41 @@
        style="fill:#008adc;fill-opacity:1;stroke:none;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke;opacity:0.75"
        ry="0.26458052"
        rx="0.2645691" />
+    <text
+       xml:space="preserve"
+       style="font-size:10.5833px;line-height:1.25;font-family:'CMU Sans Serif';letter-spacing:0px;stroke-width:0.264583;-inkscape-font-specification:'CMU Sans Serif';font-weight:normal;font-style:normal;font-stretch:normal;font-variant:normal;"
+       x="138.90625"
+       y="111.79163"
+       id="text922"><tspan
+         sodipodi:role="line"
+         id="tspan920"
+         x="138.90625"
+         y="111.79163"
+         style="stroke-width:0.264583;-inkscape-font-specification:'CMU Sans Serif';font-family:'CMU Sans Serif';font-weight:normal;font-style:normal;font-stretch:normal;font-variant:normal;" /></text>
+    <g
+       id="g1049">
+      <text
+         xml:space="preserve"
+         style="font-size:3.52777px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;fill:#52a4e0;fill-opacity:1;stroke-width:0.264583"
+         x="133.76276"
+         y="118.30743"
+         id="text935-6-3"><tspan
+           sodipodi:role="line"
+           id="tspan933-5-9"
+           x="133.76276"
+           y="118.30743"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.52777px;font-family:'CMU Sans Serif Demi Condensed';-inkscape-font-specification:'CMU Sans Serif Demi Condensed, ';fill:#52a4e0;fill-opacity:1;stroke-width:0.264583">D</tspan></text>
+      <text
+         xml:space="preserve"
+         style="font-size:3.52777px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;stroke-width:0.264583;fill:#3c99dc;fill-opacity:1;"
+         x="135.12624"
+         y="119.37801"
+         id="text935-6-8"><tspan
+           sodipodi:role="line"
+           id="tspan933-5-5"
+           x="135.12624"
+           y="119.37801"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.52777px;font-family:'CMU Sans Serif Demi Condensed';-inkscape-font-specification:'CMU Sans Serif Demi Condensed, ';stroke-width:0.264583;fill:#3c99dc;fill-opacity:1;">T</tspan></text>
+    </g>
   </g>
 </svg>

@@ -97,7 +97,7 @@ header {
     /* header background */
     background-image:
     linear-gradient(to bottom, var(--color-header-background-none), var(--color-header-background-mid), var(--color-header-background)),
-    url(/images/header_img.svg);
+    url(/images/header_img_inv.svg);
 
 }
 #sticky-header {
