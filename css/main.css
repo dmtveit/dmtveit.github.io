@@ -1,7 +1,7 @@
 :root {
     /* font */
     --font: 'Helvetica', 'Arial', 'Sans-Serif';
-    --font-size-huge: 2.5rem;
+    --font-size-huge: 2.75rem;
     --font-size-large: 2rem;
     --font-size-medium: 1.5rem;
     --font-size-normal: 1rem;
@@ -93,7 +93,7 @@ header {
     /* position content inside header */
     position: relative;
     /* header background */
-    background-image: url(/images/waves-2025984.svg);
+    background-image: url(/images/header-waves_fill.svg);
 }
 #sticky-header {
     /* sticky header size */
