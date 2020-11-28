@@ -93,11 +93,7 @@ header {
     /* position content inside header */
     position: relative;
     /* header background */
-    border-top: 1px;
-    border-right: 1px;
-    background-clip: border-box;
-    background-origin: border-box;
-    background-image: url(/images/header-waves_fill.svg);
+    background-image: url(/images/header_img.svg);
 }
 #sticky-header {
     /* sticky header size */
