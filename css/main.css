@@ -24,7 +24,7 @@
     --width-narrow: 490px;
     /* height */
     --height-top-header: 15rem;/* 13 */
-    --height-sticky-header: 4.5rem;
+    --height-sticky-header: 5rem;/* 4.5 */
     --height-total-header: calc(var(--height-top-header) + var(--height-sticky-header));
     --height-bottom-footer: var(--height-top-header);
     --height-sticky-footer: var(--height-sticky-header);
@@ -93,9 +93,7 @@ header {
     /* position content inside header */
     position: relative;
     /* header background */
-    background-image: url(/images/header_img.svg);
-    background-size: cover;
-    background-repeat: no-repeat;
+    background-image: url(/images/waves-2025984.svg);
 }
 #sticky-header {
     /* sticky header size */
