@@ -13,7 +13,10 @@
    version="1.1"
    id="svg8"
    inkscape:version="1.0.1 (3bc2e813f5, 2020-09-07)"
-   sodipodi:docname="favicon.svg">
+   sodipodi:docname="favicon.svg"
+   inkscape:export-filename="C:\Users\Daniel M. Tveit\Documents\GitHub\dmtveit.github.io\images\favicon16.png"
+   inkscape:export-xdpi="102.4"
+   inkscape:export-ydpi="102.4">
   <defs
      id="defs2">
     <mask
@@ -21,21 +24,21 @@
        id="mask858">
       <g
          id="g864"
-         style="stroke-width:0.99999994">
+         style="stroke-width:1">
         <rect
            y="114.4375"
            x="112.44791"
            height="1.3229166"
            width="3.96875"
            id="rect860"
-           style="opacity:1;fill:#0072bd;fill-opacity:1;stroke:none;stroke-width:0.99999994;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke" />
+           style="opacity:1;fill:#0072bd;fill-opacity:1;stroke:none;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke" />
         <rect
            y="117.08333"
            x="112.44791"
            height="1.3229166"
            width="3.96875"
            id="rect862"
-           style="opacity:1;fill:#0072bd;fill-opacity:1;stroke:none;stroke-width:0.99999994;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke" />
+           style="opacity:1;fill:#0072bd;fill-opacity:1;stroke:none;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke" />
       </g>
     </mask>
     <clipPath
@@ -118,21 +121,21 @@
        id="clipPath916">
       <g
          id="g922"
-         style="stroke-width:0.99999994">
+         style="stroke-width:1">
         <rect
            y="103.85417"
            x="138.90625"
            height="1.3229166"
            width="3.96875"
            id="rect918"
-           style="opacity:1;fill:#ff00ff;fill-opacity:1;stroke:none;stroke-width:0.99999994;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke" />
+           style="opacity:1;fill:#ff00ff;fill-opacity:1;stroke:none;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke" />
         <rect
            y="101.20834"
            x="138.90625"
            height="1.3229166"
            width="3.96875"
            id="rect920"
-           style="opacity:1;fill:#ff00ff;fill-opacity:1;stroke:none;stroke-width:0.99999994;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke" />
+           style="opacity:1;fill:#ff00ff;fill-opacity:1;stroke:none;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke" />
       </g>
     </clipPath>
     <clipPath
@@ -179,6 +182,50 @@
            style="opacity:1;fill:#ff00ff;fill-opacity:1;stroke:none;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke" />
       </g>
     </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath916-7">
+      <g
+         id="g922-27"
+         style="stroke-width:1">
+        <rect
+           y="103.85417"
+           x="138.90625"
+           height="1.3229166"
+           width="3.96875"
+           id="rect918-7"
+           style="opacity:1;fill:#ff00ff;fill-opacity:1;stroke:none;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke" />
+        <rect
+           y="101.20834"
+           x="138.90625"
+           height="1.3229166"
+           width="3.96875"
+           id="rect920-4"
+           style="opacity:1;fill:#ff00ff;fill-opacity:1;stroke:none;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke" />
+      </g>
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath916-3">
+      <g
+         id="g922-4"
+         style="stroke-width:1">
+        <rect
+           y="103.85417"
+           x="138.90625"
+           height="1.3229166"
+           width="3.96875"
+           id="rect918-15"
+           style="opacity:1;fill:#ff00ff;fill-opacity:1;stroke:none;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke" />
+        <rect
+           y="101.20834"
+           x="138.90625"
+           height="1.3229166"
+           width="3.96875"
+           id="rect920-49"
+           style="opacity:1;fill:#ff00ff;fill-opacity:1;stroke:none;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke" />
+      </g>
+    </clipPath>
   </defs>
   <sodipodi:namedview
      id="base"
@@ -187,12 +234,12 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="7.7102272"
-     inkscape:cx="23.534623"
-     inkscape:cy="23.93604"
+     inkscape:zoom="10.903908"
+     inkscape:cx="-18.666909"
+     inkscape:cy="22.128561"
      inkscape:document-units="mm"
      inkscape:current-layer="layer1"
-     showgrid="true"
+     showgrid="false"
      inkscape:window-width="1920"
      inkscape:window-height="1017"
      inkscape:window-x="-8"
@@ -200,12 +247,13 @@
      inkscape:window-maximized="1"
      inkscape:document-rotation="0"
      inkscape:snap-bbox="true"
-     inkscape:snap-bbox-edge-midpoints="true">
+     inkscape:snap-bbox-edge-midpoints="true"
+     inkscape:snap-bbox-midpoints="true">
     <inkscape:grid
        type="xygrid"
        id="grid815"
-       originx="-125.67708"
-       originy="-185.20835" />
+       originx="-135.85231"
+       originy="-180.44607" />
   </sodipodi:namedview>
   <metadata
      id="metadata5">
@@ -223,7 +271,7 @@
      inkscape:label="Layer 1"
      inkscape:groupmode="layer"
      id="layer1"
-     transform="translate(-125.67708,-107.8229)">
+     transform="translate(-135.85231,-103.06062)">
     <g
        id="g944"
        transform="translate(0.73232269,0.14174906)">
@@ -312,7 +360,7 @@
     </g>
     <g
        id="g936"
-       transform="translate(-10.583338,-8.0391927e-6)"
+       transform="translate(-10.583338)"
        inkscape:export-xdpi="102.4"
        inkscape:export-ydpi="102.4">
       <rect
@@ -346,7 +394,7 @@
        height="2.75"
        width="2.75"
        id="rect817-1-6-7-70-2"
-       style="fill:#ff906c;fill-opacity:1;stroke:none;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke;opacity:0.75"
+       style="opacity:0.75;fill:#ff906c;fill-opacity:1;stroke:none;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
        ry="0.26458052"
        rx="0.2645691" />
     <rect
@@ -355,12 +403,12 @@
        height="2.75"
        width="2.75"
        id="rect817-1-6-7-70"
-       style="fill:#008adc;fill-opacity:1;stroke:none;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke;opacity:0.75"
+       style="opacity:0.75;fill:#008adc;fill-opacity:1;stroke:none;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
        ry="0.26458052"
        rx="0.2645691" />
     <text
        xml:space="preserve"
-       style="font-size:10.5833px;line-height:1.25;font-family:'CMU Sans Serif';letter-spacing:0px;stroke-width:0.264583;-inkscape-font-specification:'CMU Sans Serif';font-weight:normal;font-style:normal;font-stretch:normal;font-variant:normal;"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10.5833px;line-height:1.25;font-family:'CMU Sans Serif';-inkscape-font-specification:'CMU Sans Serif';letter-spacing:0px;stroke-width:0.264583"
        x="138.90625"
        y="111.79163"
        id="text922"><tspan
@@ -368,31 +416,32 @@
          id="tspan920"
          x="138.90625"
          y="111.79163"
-         style="stroke-width:0.264583;-inkscape-font-specification:'CMU Sans Serif';font-family:'CMU Sans Serif';font-weight:normal;font-style:normal;font-stretch:normal;font-variant:normal;" /></text>
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'CMU Sans Serif';-inkscape-font-specification:'CMU Sans Serif';stroke-width:0.264583" /></text>
     <g
-       id="g1049">
+       id="g992"
+       transform="translate(3.3207503,-5.9475977)">
       <text
          xml:space="preserve"
          style="font-size:3.52777px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;fill:#52a4e0;fill-opacity:1;stroke-width:0.264583"
-         x="133.76276"
-         y="118.30743"
+         x="132.35518"
+         y="111.69286"
          id="text935-6-3"><tspan
            sodipodi:role="line"
            id="tspan933-5-9"
-           x="133.76276"
-           y="118.30743"
-           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.52777px;font-family:'CMU Sans Serif Demi Condensed';-inkscape-font-specification:'CMU Sans Serif Demi Condensed, ';fill:#52a4e0;fill-opacity:1;stroke-width:0.264583">D</tspan></text>
+           x="132.35518"
+           y="111.69286"
+           style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:3.52777px;font-family:'CMU Sans Serif';-inkscape-font-specification:'CMU Sans Serif Bold';fill:#52a4e0;fill-opacity:1;stroke-width:0.264583">D</tspan></text>
       <text
          xml:space="preserve"
-         style="font-size:3.52777px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;stroke-width:0.264583;fill:#3c99dc;fill-opacity:1;"
-         x="135.12624"
-         y="119.37801"
+         style="font-size:3.52777px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;fill:#3c99dc;fill-opacity:1;stroke-width:0.264583"
+         x="133.91092"
+         y="112.7406"
          id="text935-6-8"><tspan
            sodipodi:role="line"
            id="tspan933-5-5"
-           x="135.12624"
-           y="119.37801"
-           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.52777px;font-family:'CMU Sans Serif Demi Condensed';-inkscape-font-specification:'CMU Sans Serif Demi Condensed, ';stroke-width:0.264583;fill:#3c99dc;fill-opacity:1;">T</tspan></text>
+           x="133.91092"
+           y="112.7406"
+           style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:3.52777px;font-family:'CMU Sans Serif';-inkscape-font-specification:'CMU Sans Serif Bold';fill:#3c99dc;fill-opacity:1;stroke-width:0.264583">T</tspan></text>
     </g>
   </g>
 </svg>
