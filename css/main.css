@@ -9,7 +9,7 @@
     /* color */
     --color-body-background: rgb(245, 245, 245);
     --color-header-background: hsl(205, 70%, 60%);
-    --color-header-background-mid: hsla(205, 70%, 60%, 0.75);
+    --color-header-background-mid: hsla(205, 70%, 60%, 0.9);
     --color-header-background-none: hsla(205, 70%, 60%, 0);
     --color-sticky-header-background: hsl(205, 70%, 55%);
     --color-footer-background: var(--color-header-background);
@@ -97,7 +97,8 @@ header {
     /* header background */
     background-image:
     linear-gradient(to bottom, var(--color-header-background-none), var(--color-header-background-mid), var(--color-header-background)),
-    url(/images/header_img_inv.svg);
+    url(/images/header_img.svg);
+    background-position: left bottom;
 
 }
 #sticky-header {
