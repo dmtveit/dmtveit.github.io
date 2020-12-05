@@ -190,6 +190,12 @@ main {
     overflow: auto;
     box-shadow: var(--box-shadow);
 }
+.page-info {
+    position: relative;
+    width: 5rem;
+    height: 3rem;
+    left: -5rem;
+}
 section {
     padding: 0;
 }
