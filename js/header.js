@@ -4,7 +4,7 @@ window.onscroll = function() {
     var currentScrollY = window.scrollY;
     if ((currentScrollY > 0) && (prevScrollY === 0)) {
         var stickyHeaderHeight = getComputedStyle(document.documentElement).getPropertyValue("--height-sticky-header");
-        var bottomFooterHeight = getComputedStyle(document.documentElement).getPropertyValue("--height-bottom-footer");
+        var bottomFooterHeight = getComputedStyle(document.documentElement).getPropertyValue("--height-top-header");
         document.getElementById("top-header").style.height = 0;
         document.getElementById("main-container").style.paddingTop = stickyHeaderHeight;
         document.getElementById("bottom-footer").style.height = bottomFooterHeight;

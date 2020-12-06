@@ -27,11 +27,9 @@
     --width-page: 90%;
     --width-page-info: 10%;
     /* height */
-    --height-top-header: 15rem;
-    --height-sticky-header: 5rem;
+    --height-top-header: 15rem; /* and bottom footer height */
+    --height-sticky-header: 5rem; /* and sticky footer height */
     --height-total-header: calc(var(--height-top-header) + var(--height-sticky-header));
-    /*--height-bottom-footer: var(--height-top-header);
-    --height-sticky-footer: var(--height-sticky-header);*/
     /* margin */
     --header-title-left-margin: 0.75em;
     --header-title-bottom-margin: 0.5em;
