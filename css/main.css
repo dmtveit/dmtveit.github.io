@@ -21,7 +21,7 @@
     --width-normal: 980px;
     --width-wide: 100%;
     --width-narrow: 490px;
-    --width-main: 50wv;
+    --width-main: 50%;
     --width-main-min: 40rem;
     --width-main-max: 55rem;
     --width-page: 90%;
@@ -45,7 +45,6 @@ body {
     flex-direction: column;
     margin: 0;
     padding: 0;
-    width: 100vw;
     height: 100vh;
     background-color: var(--color-body-background);
 }
