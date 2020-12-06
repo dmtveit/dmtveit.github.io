@@ -30,8 +30,8 @@
     --height-top-header: 15rem;
     --height-sticky-header: 5rem;
     --height-total-header: calc(var(--height-top-header) + var(--height-sticky-header));
-    --height-bottom-footer: var(--height-top-header);
-    --height-sticky-footer: var(--height-sticky-header);
+    /*--height-bottom-footer: var(--height-top-header);
+    --height-sticky-footer: var(--height-sticky-header);*/
     /* margin */
     --header-title-left-margin: 0.75em;
     --header-title-bottom-margin: 0.5em;
@@ -126,7 +126,7 @@ footer {
 #sticky-footer {
     /* top header size */
     width: 100%;
-    height: var(--height-sticky-footer);
+    height: var(--height-sticky-header);
     /* align footer content with display flex */
     display: flex;
     justify-content: center;
@@ -135,7 +135,7 @@ footer {
 #bottom-footer {
     /* bottom footer size */
     width: 100%;
-    height: var(--height-bottom-footer);
+    /*height: var(--height-bottom-footer);*/
     /* footer transition on scroll */
     transition: height 0.25s ease;/* make into variable at top */
 }
