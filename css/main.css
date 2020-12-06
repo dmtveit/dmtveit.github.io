@@ -21,10 +21,11 @@
     --width-normal: 980px;
     --width-wide: 100%;
     --width-narrow: 490px;
-    --width-page: 50wv;
-    --width-page-min: 40rem;
-    --width-page-max: 55rem;
-    --width-page-info: 5em;
+    --width-main: 50wv;
+    --width-main-min: 40rem;
+    --width-main-max: 55rem;
+    --width-page: 80%;
+    --width-page-info: 20%;
     /* height */
     --height-top-header: 15rem;/* 13 */
     --height-sticky-header: 5rem;/* 4.5 */
@@ -170,9 +171,9 @@ header nav ul li, footer nav ul li {
 /* main */
 main {
     margin: auto;
-    width: var(--width-page);
-    min-width: var(--width-page-min);
-    max-width: var(--width-page-max);
+    width: var(--width-main);
+    min-width: var(--width-main-min);
+    max-width: var(--width-main-max);
 }
 #main-container {
     width: 100%;
@@ -189,7 +190,7 @@ main {
     margin-top: 20px;
 }
 .page {
-    width: 100% - var(--width-page-info);
+    width: var(--width-page);
     padding: 2rem;
     box-sizing: border-box;
     background-color: #fff;
