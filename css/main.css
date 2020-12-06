@@ -194,7 +194,7 @@ main {
     padding: 2rem;
     box-sizing: border-box;
     background-color: #fff;
-    /* overflow: auto; */
+    overflow: auto;
     box-shadow: var(--box-shadow);
 }
 .page-info {
@@ -203,6 +203,7 @@ main {
 }
 section {
     padding: 0;
+    overflow: auto;
 }
 
 
