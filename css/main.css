@@ -189,7 +189,7 @@ main {
     margin-top: 20px;
 }
 .page {
-    width: 100%;
+    width: 100% - var(--width-page-info);
     padding: 2rem;
     box-sizing: border-box;
     background-color: #fff;

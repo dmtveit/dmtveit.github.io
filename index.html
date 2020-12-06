@@ -17,10 +17,12 @@ title: Page Title
 </div>
 
 <!-- News section -->
-<div class="page">
-    <section>
-        {% for post in site.categories.news %}
-            {{ post.content }}
-        {% endfor %}
-    </section>
+<div class="page-container">
+    <div class="page">
+        <section>
+            {% for post in site.categories.news %}
+                {{ post.content }}
+            {% endfor %}
+        </section>
+    </div>
 </div>
