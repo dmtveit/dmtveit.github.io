@@ -41,6 +41,8 @@
 
 /* body */
 body {
+    display: flex;
+    flex-direction: column;
     margin: 0;
     padding: 0;
     width: 100vw;
@@ -122,8 +124,8 @@ footer {
     background-color: var(--color-footer-background);
 
     /* bottom fill testing */
-    display: flex;
-    flex-flow: column;
+    /*display: flex;*/
+    /*flex-flow: column;*/
 }
 #sticky-footer {
     /* top header size */
@@ -142,7 +144,7 @@ footer {
     transition: height 0.25s ease;/* make into variable at top */
 
     /* bottom fill testing */
-    flex: 1;
+    /*flex: 1;*/
 }
 header nav, footer nav {
     margin: auto;
