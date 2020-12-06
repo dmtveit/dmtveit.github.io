@@ -24,11 +24,11 @@
     --width-main: 50wv;
     --width-main-min: 40rem;
     --width-main-max: 55rem;
-    --width-page: 80%;
-    --width-page-info: 20%;
+    --width-page: 85%;
+    --width-page-info: 15%;
     /* height */
-    --height-top-header: 15rem;/* 13 */
-    --height-sticky-header: 5rem;/* 4.5 */
+    --height-top-header: 15rem;
+    --height-sticky-header: 5rem;
     --height-total-header: calc(var(--height-top-header) + var(--height-sticky-header));
     --height-bottom-footer: var(--height-top-header);
     --height-sticky-footer: var(--height-sticky-header);
@@ -186,8 +186,8 @@ main {
 .page-container {
     display: flex;
     flex-direction: row;
-    justify-content: flex-start;
-    margin-top: 20px;
+    justify-content: flex-end;
+    margin-top: 20px; /* make into variable at top */
 }
 .page {
     width: var(--width-page);
@@ -201,11 +201,12 @@ main {
     width: var(--width-page-info);
     font-size: var(--font-size-medium);
 }
+
+/* sections */
 section {
     padding: 0;
     overflow: auto;
 }
-
 
 /* links */
 a {
