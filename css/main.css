@@ -53,6 +53,7 @@ h1 {
     font-size: var(--font-size-large);
     font-family: var(--font);
     color: var(--color-text);
+    margin-top: 0;
 }
 h2 {
     font-size: var(--font-size-medium);
@@ -199,6 +200,12 @@ main {
 }
 .page-info {
     width: var(--width-page-info);
+}
+.page-info-icon {
+    margin: 0;
+}
+.page-info-text {
+    margin: 0;
 }
 
 /* sections */
