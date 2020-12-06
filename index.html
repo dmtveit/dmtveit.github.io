@@ -3,116 +3,14 @@ layout: default
 title: Page Title
 ---
 <!-- About section -->
-<div class="page">
-    <div class="page-info">
-        <p><i class="fas fa-door-open"></i>Page info panel</p>
+<div class="page-container">
+    <div class="page">
+        <section>
+            {% for post in site.categories.about %}
+                {{ post.content }}
+            {% endfor %}
+        </section>
     </div>
-    <section>
-        {% for post in site.categories.about %}
-            {{ post.content }}
-        {% endfor %}
-        <!-- useless text -->
-        <p>
-            text<br>
-            text<br>
-            text<br>
-            text<br>
-            text<br>
-            text<br>
-            text<br>
-            text<br>
-            text<br>
-            text<br>
-            text<br>
-            text<br>
-            text<br>
-            text<br>
-            text<br>
-            text<br>
-            text<br>
-            text<br>
-            text<br>
-            text<br>
-            text<br>
-            text<br>
-            text<br>
-            text<br>
-            text<br>
-            text<br>
-            text<br>
-            text<br>
-            text<br>
-            text<br>
-            text<br>
-            text<br>
-            text<br>
-            text<br>
-            text<br>
-            text<br>
-            text<br>
-            text<br>
-            text<br>
-            text<br>
-            text<br>
-            text<br>
-            text<br>
-            text<br>
-            text<br>
-            text<br>
-            text<br>
-            text<br>
-            text<br>
-            text<br>
-            text<br>
-            text<br>
-            text<br>
-            text<br>
-            text<br>
-            text<br>
-            text<br>
-            text<br>
-            text<br>
-            text<br>
-            text<br>
-            text<br>
-            text<br>
-            text<br>
-            text<br>
-            text<br>
-            text<br>
-            text<br>
-            text<br>
-            text<br>
-            text<br>
-            text<br>
-            text<br>
-            text<br>
-            text<br>
-            text<br>
-            text<br>
-            text<br>
-            text<br>
-            text<br>
-            text<br>
-            text<br>
-            text<br>
-            text<br>
-            text<br>
-            text<br>
-            text<br>
-            text<br>
-            text<br>
-            text<br>
-            text<br>
-            text<br>
-            text<br>
-            text<br>
-            text<br>
-            text<br>
-            text<br>
-            text<br>
-        </p>
-    </section>
 </div>
 
 <!-- News section -->

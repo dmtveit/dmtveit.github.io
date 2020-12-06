@@ -181,6 +181,11 @@ main {
     justify-content: flex-start;
     transition: padding-top 0.25s ease;/* make into variable at top */
 }
+.page-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
 .page {
     width: 100%;
     margin-top: 20px;
