@@ -1,5 +1,5 @@
 ---
-title: News
+title: First Post
 ---
 
 # Good News Everyone!

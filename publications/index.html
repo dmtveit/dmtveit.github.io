@@ -4,18 +4,20 @@ title: Publications
 ---
 {% assign postsByYear = site.categories.publications | group_by_exp:"publication", "publication.date | date: '%Y'" %}
 {% for year in postsByYear %}
-  <div class="page">
-    <section>
-      <h2>{{ year.name }}</h2>
-      <ul>
-        {% for publication in year.items %}
-          <p>
-            <a style="font-weight: bold;" href="{{ publication.doiurl }}" title="{{ publication.papertitle }}">{{ publication.papertitle }}</a><br>
-            {{ publication.date | date_to_string }} &bull; {{ publication.authors }}<br>
-            <i>{{ publication.publisher }}</i>
-          </p>
-        {% endfor %}
-      </ul>
-    </section>
+  <div class="page-container">
+    <div class="page">
+      <section>
+        <h2>{{ year.name }}</h2>
+        <ul>
+          {% for publication in year.items %}
+            <p>
+              <a style="font-weight: bold;" href="{{ publication.doiurl }}" title="{{ publication.papertitle }}">{{ publication.papertitle }}</a><br>
+              {{ publication.date | date_to_string }} &bull; {{ publication.authors }}<br>
+              <i>{{ publication.publisher }}</i>
+            </p>
+          {% endfor %}
+        </ul>
+      </section>
+    </div>
   </div>
 {% endfor %}
