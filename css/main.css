@@ -1,7 +1,7 @@
 :root {
     /* font */
     --font: 'Helvetica', 'Arial', 'Sans-Serif';
-    --font-size-huge: 3rem;/*2.5-2.75*/
+    --font-size-huge: 2.75rem;
     --font-size-large: 2rem;
     --font-size-medium: 1.5rem;
     --font-size-normal: 1rem;
@@ -18,12 +18,13 @@
     --color-header-text:var(--color-body-background);
     --color-separator: rgb(200, 200, 200);
     /* width */
-    --width-page: 50wv;
-    --width-page-min: 40rem;
-    --width-page-max: 55rem;
     --width-normal: 980px;
     --width-wide: 100%;
     --width-narrow: 490px;
+    --width-page: 50wv;
+    --width-page-min: 40rem;
+    --width-page-max: 55rem;
+    --width-page-info: 5em;
     /* height */
     --height-top-header: 15rem;/* 13 */
     --height-sticky-header: 5rem;/* 4.5 */
@@ -196,8 +197,8 @@ main {
     box-shadow: var(--box-shadow);
 }
 .page-info {
-    width: 5rem;
-    height: 3rem;
+    width: var(--width-page-info);
+    font-size: var(--font-size-medium);
 }
 section {
     padding: 0;
