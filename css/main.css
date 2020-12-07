@@ -18,14 +18,14 @@
     --color-header-text:var(--color-body-background);
     --color-separator: rgb(200, 200, 200);
     /* width */
-    --width-normal: 980px;
+    /*--width-normal: 980px;
     --width-wide: 100%;
-    --width-narrow: 490px;
+    --width-narrow: 490px;*/
     --width-main: 50%;
     --width-main-min: 40rem;
     --width-main-max: 55rem;
-    --width-page: 90%;
-    --width-page-info: 10%;
+    /*--width-page: 90%;*/
+    --width-page-info: 6.25rem;
     /* height */
     --height-top-header: 15rem; /* and bottom footer height */
     --height-sticky-header: 5rem; /* and sticky footer height */
@@ -199,7 +199,7 @@ main {
     margin-top: 20px; /* make into variable at top */
 }
 .page {
-    width: var(--width-page);
+    flex: 1;
     padding: 2rem;
     box-sizing: border-box;
     background-color: #fff;

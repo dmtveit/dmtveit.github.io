@@ -12,9 +12,9 @@ title: Résumé
   </div>
   <div class="page">
       <section>
-          <h1>Education</h1>
           {% for post in site.categories.education %}
-              {{ post.content }}
+              <h3>{{ post.title }}, <i>{{ post.institution }}</i></h3><br>
+              <p>{{ post.content }}</p>
           {% endfor %}
       </section>
   </div>
@@ -30,7 +30,6 @@ title: Résumé
   </div>
   <div class="page">
       <section>
-          <h1>Employment</h1>
           {% for post in site.categories.employment %}
               {{ post.content }}
           {% endfor %}
