@@ -2,6 +2,43 @@
 layout: default
 title: Résumé
 ---
+<!-- Education -->
+<div class="page-container">
+  <div class="page-info">
+      <section>
+          <h2 class="page-info-icon"><i class="fas fa-user-graduate"></i></h2>
+          <p class="page-info-text">Education</p>
+      </section>
+  </div>
+  <div class="page">
+      <section>
+          <h1>Education</h1>
+          {% for post in site.categories.education %}
+              {{ post.content }}
+          {% endfor %}
+      </section>
+  </div>
+</div>
+
+<!-- Employment -->
+<div class="page-container">
+  <div class="page-info">
+      <section>
+          <h2 class="page-info-icon"><i class="fas fa-user-tie"></i></h2>
+          <p class="page-info-text">Employment</p>
+      </section>
+  </div>
+  <div class="page">
+      <section>
+          <h1>Employment</h1>
+          {% for post in site.categories.employment %}
+              {{ post.content }}
+          {% endfor %}
+      </section>
+  </div>
+</div>
+
+<!-- Publications -->
 {% assign postsByYear = site.categories.publications | group_by_exp:"publication", "publication.date | date: '%Y'" %}
 {% for year in postsByYear %}
   <div class="page-container">
