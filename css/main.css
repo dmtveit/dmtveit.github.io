@@ -22,7 +22,7 @@
     --width-wide: 100%;
     --width-narrow: 490px;*/
     --width-main: 50%;
-    --width-main-min: 40rem;
+    --width-main-min: calc(640px + 2 * 2rem + 2 * var(--width-page-info)); /* change 2rem to variable for page padding */
     --width-main-max: 55rem;
     /*--width-page: 90%;*/
     --width-page-info: 6.25rem;
@@ -200,7 +200,7 @@ main {
 }
 .page {
     flex: 1;
-    padding: 2rem;
+    padding: 2rem; /* make into variable at top */
     box-sizing: border-box;
     background-color: #fff;
     overflow: auto;

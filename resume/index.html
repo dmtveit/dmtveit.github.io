@@ -14,7 +14,7 @@ title: Résumé
       <section>
           {% for post in site.categories.education %}
               <h3>{{ post.title }}, <i style="font-weight:normal">{{ post.institution }}</i></h3>
-              <p>{{ post.content }}</p>
+              {{ post.content }}
           {% endfor %}
       </section>
   </div>
