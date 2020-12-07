@@ -185,8 +185,8 @@ main {
     max-width: var(--width-main-max);
 }
 #main-container {
-    width: 100%;
     padding-top: var(--height-total-header);
+    padding-right: var(--width-page-info);
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
