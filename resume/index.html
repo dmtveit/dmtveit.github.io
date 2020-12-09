@@ -45,11 +45,17 @@ title: Résumé
 </div>
 
 <!-- Publications -->
-{% assign postsByYear = site.categories.publications | group_by_exp:"publication", "publication.date | date: '%Y'" %}
-{% for year in postsByYear %}
-  <div class="page-container">
-    <div class="page">
+<div class="page-container">
+  <div class="page-info">
       <section>
+          <h2 class="page-info-icon"><i class="fas fa-journal-whills"></i></h2>
+          <p class="page-info-text">Publications</p>
+      </section>
+  </div>
+  <div class="page">
+      <section>
+        {% assign postsByYear = site.categories.publications | group_by_exp:"publication", "publication.date | date: '%Y'" %}
+        {% for year in postsByYear %}
         <h2>{{ year.name }}</h2>
         <ul>
           {% for publication in year.items %}
@@ -60,7 +66,7 @@ title: Résumé
             </p>
           {% endfor %}
         </ul>
+        {% endfor %}
       </section>
-    </div>
   </div>
-{% endfor %}
+</div>
