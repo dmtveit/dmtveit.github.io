@@ -255,3 +255,11 @@ iframe {
     display: block;
     margin: auto;
 }
+
+/* download button for résumé */
+#download {
+    position: absolute;
+    margin-right: 0;
+    margin-left: auto;
+    font-size: var(--font-size-huge);
+}
