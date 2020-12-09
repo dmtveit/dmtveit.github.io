@@ -109,8 +109,8 @@ header {
     height: var(--height-sticky-header);
     /* align header content with display flex */
     display: flex;
-    justify-content: center;
     flex-direction: column;
+    justify-content: center;
     /* color */
     background-color: var(--color-sticky-header-background);
 }
@@ -262,10 +262,15 @@ iframe {
 }
 
 /* download button (for résumé page) */
+#download-container {
+    margin-left: calc(100% - var(--width-page-info));
+    height: 0;
+}
 #download {
     position: fixed;
     width: var(--width-page-info);
     margin-top: 20px; /* make into variable at top */
+    padding-left: 20px; /* set same padding for page-info (make into variable at top) */
     font-size: var(--font-size-huge);
     font-family: var(--font);
     color: var(--color-text);
