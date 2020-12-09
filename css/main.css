@@ -127,7 +127,7 @@ footer {
     /* full width footer*/
     width: 100%;
     /* other */
-    margin-top: 20px;
+    margin-top: 20px; /* make into variable at top */
     /*border-top: 1px solid var(--color-separator);*/
     background-color: var(--color-footer-background);
 
@@ -176,10 +176,11 @@ header nav ul li, footer nav ul li {
     margin: 0;
 }
 #header-title {
-    font-size: var(--font-size-huge);
     position: absolute;
     bottom: 0;
     left: 0;
+    font-size: var(--font-size-huge);
+    font-family: var(--font);
     color: var(--color-header-text);
     margin-left: var(--header-title-left-margin);
     margin-bottom: var(--header-title-bottom-margin);
@@ -241,11 +242,13 @@ a:hover {
 }
 .headerlink {
     font-size: var(--font-size-normal);
+    font-family: var(--font);
     color: var(--color-header-text);
     margin: var(--nav-item-margin);
 }
 .footerlink {
     font-size: var(--font-size-huge);
+    font-family: var(--font);
     color: var(--color-header-text);
     margin: var(--nav-item-margin);
 }
@@ -258,8 +261,9 @@ iframe {
 
 /* download button for résumé */
 #download {
-    position: absolute;
-    margin-right: 0;
-    margin-left: auto;
+    position: fixed;
+    padding-top: 20px; /* make into variable at top */
     font-size: var(--font-size-huge);
+    font-family: var(--font);
+    color: var(--color-text);
 }
