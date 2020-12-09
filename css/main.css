@@ -114,15 +114,6 @@ header {
     /* color */
     background-color: var(--color-sticky-header-background);
 }
-#vivaldi {
-    display: flex;
-    justify-content: flex-end;
-}
-@media only screen and (max-width: calc(var(--width-main-min + 2 * 160px))) {
-    #vivaldi {
-        display: none;
-    }
-}
 footer {
     /* full width footer*/
     width: 100%;
@@ -196,7 +187,6 @@ main {
 }
 #main-container {
     padding-top: var(--height-total-header);
-    padding-right: var(--width-page-info);
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
@@ -206,6 +196,7 @@ main {
     display: flex;
     flex-direction: row;
     justify-content: flex-end;
+    padding-right: var(--width-page-info);
     margin-top: 20px; /* make into variable at top */
 }
 .page {
@@ -253,16 +244,28 @@ a:hover {
     margin: var(--nav-item-margin);
 }
 
+/* vivaldi ad */
+#vivaldi {
+    display: flex;
+    justify-content: flex-end;
+}
+@media only screen and (max-width: calc(var(--width-main-min + 2 * 160px))) {
+    #vivaldi {
+        display: none;
+    }
+}
+
 /* iframe (for contact page) */
 iframe {
     display: block;
     margin: auto;
 }
 
-/* download button for résumé */
+/* download button (for résumé page) */
 #download {
     position: fixed;
-    padding-top: 20px; /* make into variable at top */
+    width: var(--width-page-info);
+    margin-top: 20px; /* make into variable at top */
     font-size: var(--font-size-huge);
     font-family: var(--font);
     color: var(--color-text);
