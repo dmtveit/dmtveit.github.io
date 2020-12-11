@@ -9,7 +9,8 @@ window.onscroll = function() {
         //document.getElementById("main-container").style.paddingTop = stickyHeaderHeight;
         //document.getElementById("bottom-footer").style.height = bottomFooterHeight;
 
-        document.getElementById("top-header").style.transform = "scale(0)";
+        document.getElementsByTagName("header")[0].style.transform = "translate(0, -" + stickyHeaderHeight + ")";
+        document.getElementsByTagName("main")[0].style.transform = "translate(0, -" + stickyHeaderHeight + ")";
     } else if ((currentScrollY === 0) && (prevScrollY > 0)) {
         var topHeaderHeight = getComputedStyle(document.documentElement).getPropertyValue("--height-top-header");
         var totalHeaderHeight = getComputedStyle(document.documentElement).getPropertyValue("--height-total-header");
@@ -17,7 +18,8 @@ window.onscroll = function() {
         //document.getElementById("main-container").style.paddingTop = totalHeaderHeight;
         //document.getElementById("bottom-footer").style.height = 0;
 
-        document.getElementById("top-header").style.transform = "scale(1)";
+        document.getElementsByTagName("header")[0].style.transform = "translate(0, 0)";
+        document.getElementsByTagName("main")[0].style.transform = "translate(0, 0)";
     }
     prevScrollY = currentScrollY;
 }
