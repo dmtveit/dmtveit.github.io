@@ -4,6 +4,7 @@
     --font-size-huge: 2.75rem;
     --font-size-large: 2rem;
     --font-size-medium: 1.5rem;
+    --font-size-normal-title: 1.2rem;
     --font-size-normal: 1rem;
     --font-size-small: 0.75rem;
     /* color */
@@ -25,7 +26,7 @@
     --width-main-min: calc(640px + 2 * 2rem + 2 * var(--width-page-info)); /* change 2rem to variable for page padding */
     --width-main-max: 55rem;
     /*--width-page: 90%;*/
-    --width-page-info: 6.25rem;
+    --width-page-info: 12ch;
     /* height */
     --height-top-header: 15rem; /* and bottom footer height */
     --height-sticky-header: 5rem; /* and sticky footer height */
@@ -60,7 +61,7 @@ h2 {
     color: var(--color-text);
 }
 h3 {
-    font-size: var(--font-size-normal);
+    font-size: var(--font-size-normal-title);
     font-family: var(--font);
     color: var(--color-text);
 }
@@ -211,6 +212,8 @@ main {
     box-shadow: var(--box-shadow);
 }
 .page-info {
+    font-size: var(--font-size-normal);
+    font-family: var(--font);
     width: var(--width-page-info);
 }
 .page-info-icon {
