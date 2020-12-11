@@ -206,6 +206,8 @@ main {
     background-color: #fff;
     overflow: auto;
     box-shadow: var(--box-shadow);
+
+    transition: transform 0.25s ease;
 }
 .page-info {
     width: var(--width-page-info);
