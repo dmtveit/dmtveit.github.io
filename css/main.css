@@ -102,6 +102,8 @@ header {
     url(/images/header_img.svg);
     /*border-top: 1px solid var(--color-header-background);
     background-origin: border-box;*/
+
+    transition: transform 0.25s ease;
 }
 #sticky-header {
     /* sticky header size */
@@ -206,8 +208,6 @@ main {
     background-color: #fff;
     overflow: auto;
     box-shadow: var(--box-shadow);
-
-    transition: transform 0.25s ease;
 }
 .page-info {
     width: var(--width-page-info);
