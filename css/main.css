@@ -104,6 +104,7 @@ header {
     background-origin: border-box;*/
 
     transition: transform 0.25s ease;
+    /*will-change: transform;*/
 }
 #sticky-header {
     /* sticky header size */
