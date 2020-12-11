@@ -5,21 +5,21 @@ window.onscroll = function() {
     if ((currentScrollY > 0) && (prevScrollY === 0)) {
         var stickyHeaderHeight = getComputedStyle(document.documentElement).getPropertyValue("--height-sticky-header");
         var bottomFooterHeight = getComputedStyle(document.documentElement).getPropertyValue("--height-top-header");
-        //document.getElementById("top-header").style.height = 0;
-        //document.getElementById("main-container").style.paddingTop = stickyHeaderHeight;
-        //document.getElementById("bottom-footer").style.height = bottomFooterHeight;
+        document.getElementById("top-header").style.height = 0;
+        document.getElementById("main-container").style.paddingTop = stickyHeaderHeight;
+        document.getElementById("bottom-footer").style.height = bottomFooterHeight;
 
-        document.getElementsByTagName("header")[0].style.transform = "translate(0, -" + stickyHeaderHeight + ")";
-        document.getElementsByTagName("main")[0].style.transform = "translate(0, -" + stickyHeaderHeight + ")";
+        //document.getElementsByTagName("header")[0].style.transform = "translate(0, -" + stickyHeaderHeight + ")";
+        //document.getElementsByTagName("main")[0].style.transform = "translate(0, -" + stickyHeaderHeight + ")";
     } else if ((currentScrollY === 0) && (prevScrollY > 0)) {
         var topHeaderHeight = getComputedStyle(document.documentElement).getPropertyValue("--height-top-header");
         var totalHeaderHeight = getComputedStyle(document.documentElement).getPropertyValue("--height-total-header");
-        //document.getElementById("top-header").style.height = topHeaderHeight;
-        //document.getElementById("main-container").style.paddingTop = totalHeaderHeight;
-        //document.getElementById("bottom-footer").style.height = 0;
+        document.getElementById("top-header").style.height = topHeaderHeight;
+        document.getElementById("main-container").style.paddingTop = totalHeaderHeight;
+        document.getElementById("bottom-footer").style.height = 0;
 
-        document.getElementsByTagName("header")[0].style.transform = "translate(0, 0)";
-        document.getElementsByTagName("main")[0].style.transform = "translate(0, 0)";
+        //document.getElementsByTagName("header")[0].style.transform = "translate(0, 0)";
+        //document.getElementsByTagName("main")[0].style.transform = "translate(0, 0)";
     }
     prevScrollY = currentScrollY;
 }
