@@ -75,8 +75,9 @@ p {
 
 /* header and footer */
 header {
-    /* fixed header */
-    /*position: sticky;*/
+    /* sticky header */
+    position: sticky;
+    top: calc(-1 * var(--height-top-header));
     /* full width header */
     width: 100%;
     /* other */
@@ -106,7 +107,6 @@ header {
     url(/images/header_img.svg);
 }
 #sticky-header {
-    position: sticky;
     /* sticky header size */
     width: 100%;
     height: var(--height-sticky-header);
