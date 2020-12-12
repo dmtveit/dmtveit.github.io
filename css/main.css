@@ -192,7 +192,6 @@ main {
     min-width: var(--width-main-min);
     max-width: var(--width-main-max);
     margin: auto;
-    padding-top: var(--height-sticky-header);
     padding-bottom: 20px; /* make into variable at top */
     display: flex;
     flex-direction: column;
