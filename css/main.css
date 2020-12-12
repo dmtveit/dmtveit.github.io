@@ -80,7 +80,7 @@ header {
     top: 0;
     /* full width header */
     width: 100%;
-    /* transition */
+    /* animation */
     transition: var(--header-animation);
 }
 /*@supports (-webkit-backdrop-filter: none) {
@@ -183,6 +183,9 @@ header nav ul li, footer nav ul li {
 main {
     width: 100%;
     top: var(--height-top-header);
+    z-index: -1;
+    /* animation */
+    transition: var(--header-animation);
 }
 #main-container {
     width: var(--width-main);
