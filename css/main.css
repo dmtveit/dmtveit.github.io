@@ -77,14 +77,11 @@ p {
 header {
     /* sticky header */
     position: sticky;
-    top: calc(-1 * var(--height-top-header));
+    top: 0;
     /* full width header */
     width: 100%;
-    /* other */
-    /*background-color: var(--color-header-background);
-    /*box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.25);*/
-
-    /*transition: var(--header-animation);*/
+    /* transition */
+    transition: var(--header-animation);
 }
 /*@supports (-webkit-backdrop-filter: none) {
     header {

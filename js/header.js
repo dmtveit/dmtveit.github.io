@@ -24,9 +24,3 @@ window.onscroll = function() {
     }
     prevScrollY = currentScrollY;
 }
-
-var header = document.getElementsByTagName("header")[0];
-
-header.addEventListener("transitionend", function() {
-    header.style.top = 0;
-});
