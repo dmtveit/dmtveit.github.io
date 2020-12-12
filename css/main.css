@@ -50,6 +50,8 @@ body {
     padding: 0;
     height: 100vh;
     background-color: var(--color-body-background);
+    /* other */
+    z-index: 0; /* necessary with translation animation*/
 }
 h1 {
     font-size: var(--font-size-large);
@@ -82,6 +84,8 @@ header {
     width: 100%;
     /* animation */
     transition: var(--header-animation);
+    /* other */
+    z-index: 2; /* necessary with translation animation*/
 }
 /*@supports (-webkit-backdrop-filter: none) {
     header {
@@ -93,7 +97,6 @@ header {
     /* top header size */
     width: 100%;
     height: var(--height-top-header);
-    /* header transition on scroll */
     /* color */
     background-color: var(--color-header-background);
     /* position content inside header */
@@ -133,8 +136,13 @@ footer {
 
     /* bottom fill testing */
     flex: 1;
+
+    /* animation */
+    transition: var(--header-animation);
+    /* other */
+    z-index: 2; /* necessary with translation animation*/
 }
-#sticky-footer {
+#footer-bar {
     /* top header size */
     width: 100%;
     height: var(--height-sticky-header);
@@ -142,11 +150,6 @@ footer {
     display: flex;
     justify-content: center;
     flex-direction: column;
-}
-#bottom-footer {
-    /* bottom footer size */
-    width: 100%;
-    height: 0;
 }
 header nav, footer nav {
     margin: auto;
@@ -186,6 +189,8 @@ main {
     z-index: -1;
     /* animation */
     transition: var(--header-animation);
+    /* other */
+    z-index: 1; /* necessary with translation animation*/
 }
 #main-container {
     width: var(--width-main);
