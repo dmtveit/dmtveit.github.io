@@ -131,14 +131,10 @@ header {
 footer {
     /* full width footer*/
     width: 100%;
-    /* other */
-    background-color: var(--color-footer-background);
 
     /* bottom fill testing */
     flex: 1;
 
-    /* animation */
-    transition: var(--header-animation);
     /* other */
     z-index: 2; /* necessary with translation animation*/
 }
@@ -150,6 +146,10 @@ footer {
     display: flex;
     justify-content: center;
     flex-direction: column;
+    /* animation */
+    transition: var(--header-animation);
+    /* other */
+    background-color: var(--color-footer-background);
 }
 header nav, footer nav {
     margin: auto;
