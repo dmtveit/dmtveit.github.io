@@ -278,8 +278,8 @@ iframe {
     width: var(--width-page-info);
     margin-top: 20px; /* make into variable at top */
     padding-left: 20px; /* set same padding for page-info (make into variable at top) */
-
-    font-size: var(--font-size-normal);
+    
+    font-size: var(--font-size-huge);
     font-family: var(--font);
     color: var(--color-text);
 }
