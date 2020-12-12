@@ -8,7 +8,7 @@
     --font-size-normal: 1rem;
     --font-size-small: 0.75rem;
     /* color */
-    --color-body-background: rgb(245, 245, 245);
+    --color-background: rgb(245, 245, 245);
     --color-header-background: hsl(205, 70%, 60%);
     --color-header-background-mid: hsla(205, 70%, 60%, 0.9);
     --color-header-background-none: hsla(205, 70%, 60%, 0);
@@ -16,7 +16,7 @@
     --color-footer-background: var(--color-header-background);
     --color-text: rgb(50, 50, 50);
     --color-link: rgb(150, 150, 150);
-    --color-header-text:var(--color-body-background);
+    --color-header-text:var(--color-background);
     --color-separator: rgb(200, 200, 200);
     /* width */
     /*--width-normal: 980px;
@@ -49,7 +49,7 @@ body {
     margin: 0;
     padding: 0;
     height: 100vh;
-    background-color: var(--color-body-background);
+    background-color: var(--color-header-background);
     /* other */
     z-index: 0; /* necessary with translation animation*/
 }
@@ -190,6 +190,7 @@ main {
     /* animation */
     transition: var(--header-animation);
     /* other */
+    background-color: var(--color-background);
     z-index: 1; /* necessary with translation animation*/
 }
 #main-container {
