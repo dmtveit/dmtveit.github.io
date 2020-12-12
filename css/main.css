@@ -120,6 +120,8 @@ header {
 #vivaldi {
     display: flex;
     justify-content: flex-end;
+    height: 0;
+    overflow: visible;
 }
 @media only screen and (max-width: calc(var(--width-main-min + 2 * 160px))) {
     #vivaldi {
