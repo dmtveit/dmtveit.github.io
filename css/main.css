@@ -4,7 +4,7 @@
     --font-size-huge: 2.75rem;
     --font-size-large: 2rem;
     --font-size-medium: 1.5rem;
-    --font-size-normal-title: 1.2rem;
+    --font-size-normal-title: 1.1rem;
     --font-size-normal: 1rem;
     --font-size-small: 0.75rem;
     /* color */
@@ -76,7 +76,7 @@ p {
 /* header and footer */
 header {
     /* fixed header */
-    position: sticky;
+    /*position: sticky;*/
     /* full width header */
     width: 100%;
     /* other */
@@ -106,6 +106,7 @@ header {
     url(/images/header_img.svg);
 }
 #sticky-header {
+    position: sticky;
     /* sticky header size */
     width: 100%;
     height: var(--height-sticky-header);
