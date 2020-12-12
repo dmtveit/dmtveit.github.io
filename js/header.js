@@ -1,4 +1,4 @@
-var prevScrollY = window.scrollY;
+/*var prevScrollY = window.scrollY;
 
 window.onscroll = function() {
     var currentScrollY = window.scrollY;
@@ -22,4 +22,4 @@ window.onscroll = function() {
         //document.getElementsByTagName("main")[0].style.transform = "translate(0, 0)";
     }
     prevScrollY = currentScrollY;
-}
+}*/

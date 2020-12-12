@@ -76,7 +76,7 @@ p {
 /* header and footer */
 header {
     /* fixed header */
-    position: fixed;
+    position: sticky;
     /* full width header */
     width: 100%;
     /* other */
@@ -96,8 +96,6 @@ header {
     width: 100%;
     height: var(--height-top-header);
     /* header transition on scroll */
-    transition: height 0.25s ease;/* make into variable at top */
-    will-change: height;
     /* color */
     background-color: var(--color-header-background);
     /* position content inside header */
@@ -106,8 +104,6 @@ header {
     background-image:
     linear-gradient(to bottom, var(--color-header-background-none), var(--color-header-background-mid), var(--color-header-background)),
     url(/images/header_img.svg);
-    /*border-top: 1px solid var(--color-header-background);
-    background-origin: border-box;*/
 }
 #sticky-header {
     /* sticky header size */
@@ -119,6 +115,15 @@ header {
     justify-content: center;
     /* color */
     background-color: var(--color-sticky-header-background);
+}
+#vivaldi {
+    display: flex;
+    justify-content: flex-end;
+}
+@media only screen and (max-width: calc(var(--width-main-min + 2 * 160px))) {
+    #vivaldi {
+        display: none;
+    }
 }
 footer {
     /* full width footer*/
@@ -187,20 +192,17 @@ header nav ul li, footer nav ul li {
 
 /* main */
 main {
-    margin: auto;
+    width: 100%;
+}
+#main-container {
     width: var(--width-main);
     min-width: var(--width-main-min);
     max-width: var(--width-main-max);
-
-    /*transition: var(--header-animation);*/
-}
-#main-container {
-    padding-top: var(--height-total-header);
+    margin: auto;
+    padding-top: var(--height-sticky-header);
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
-    transition: padding-top 0.25s ease;/* make into variable at top */
-    will-change: padding-top;
 }
 .page-container {
     display: flex;
@@ -254,17 +256,6 @@ a:hover {
     font-family: var(--font);
     color: var(--color-header-text);
     margin: var(--nav-item-margin);
-}
-
-/* vivaldi ad */
-#vivaldi {
-    display: flex;
-    justify-content: flex-end;
-}
-@media only screen and (max-width: calc(var(--width-main-min + 2 * 160px))) {
-    #vivaldi {
-        display: none;
-    }
 }
 
 /* iframe (for contact page) */
