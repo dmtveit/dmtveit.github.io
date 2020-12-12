@@ -26,7 +26,7 @@
     --width-main-min: calc(640px + 2 * 2rem + 2 * var(--width-page-info)); /* change 2rem to variable for page padding */
     --width-main-max: 55rem;
     /*--width-page: 90%;*/
-    --width-page-info: 12ch;
+    --width-page-info: 7rem;
     /* height */
     --height-top-header: 15rem; /* and bottom footer height */
     --height-sticky-header: 5rem; /* and sticky footer height */
@@ -49,8 +49,8 @@ body {
     margin: 0;
     padding: 0;
     height: 100vh;
-    background-color: var(--color-header-background);
     /* other */
+    background-color: var(--color-footer-background);
     z-index: 0; /* necessary with translation animation*/
 }
 h1 {
@@ -84,6 +84,7 @@ header {
     width: 100%;
     /* animation */
     transition: var(--header-animation);
+    will-change: transform;
     /* other */
     z-index: 2; /* necessary with translation animation*/
 }
@@ -148,6 +149,7 @@ footer {
     flex-direction: column;
     /* animation */
     transition: var(--header-animation);
+    will-change: transform;
     /* other */
     background-color: var(--color-footer-background);
 }
@@ -189,6 +191,7 @@ main {
     z-index: -1;
     /* animation */
     transition: var(--header-animation);
+    will-change: transform;
     /* other */
     background-color: var(--color-background);
     z-index: 1; /* necessary with translation animation*/
@@ -219,8 +222,6 @@ main {
     box-shadow: var(--box-shadow);
 }
 .page-info {
-    font-size: var(--font-size-normal);
-    font-family: var(--font);
     width: var(--width-page-info);
 }
 .page-info-icon {
