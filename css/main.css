@@ -74,6 +74,11 @@ p {
     font-family: var(--font);
     color: var(--color-text);
 }
+i {
+    font-size: var(--font-size-normal);
+    font-family: var(--font);
+    color: var(--color-text);
+}
 
 /* header and footer */
 header {
@@ -84,7 +89,7 @@ header {
     width: 100%;
     /* animation */
     transition: var(--header-animation);
-    will-change: transform;
+    /*will-change: transform;*/
     /* other */
     z-index: 2; /* necessary with translation animation*/
 }
@@ -149,7 +154,7 @@ footer {
     flex-direction: column;
     /* animation */
     transition: var(--header-animation);
-    will-change: transform;
+    /*will-change: transform;*/
     /* other */
     background-color: var(--color-footer-background);
 }
@@ -191,7 +196,7 @@ main {
     z-index: -1;
     /* animation */
     transition: var(--header-animation);
-    will-change: transform;
+    /*will-change: transform;*/
     /* other */
     background-color: var(--color-background);
     z-index: 1; /* necessary with translation animation*/
@@ -270,11 +275,10 @@ iframe {
     height: 0;
 }
 #download {
-    position: fixed;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
     width: var(--width-page-info);
     margin-top: 20px; /* make into variable at top */
     padding-left: 20px; /* set same padding for page-info (make into variable at top) */
-    font-size: var(--font-size-huge);
-    font-family: var(--font);
-    color: var(--color-text);
 }
