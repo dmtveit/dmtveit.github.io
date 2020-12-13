@@ -1,5 +1,4 @@
 var prevScrollY = window.scrollY;
-var topHeaderHeight = getComputedStyle(document.documentElement).getPropertyValue("--height-top-header");
 
 window.onscroll = function() {
     var currentScrollY = window.scrollY;
@@ -7,6 +6,7 @@ window.onscroll = function() {
     // hide header if page is scrolled
     if ((currentScrollY > 0) && (prevScrollY === 0)) {
         
+        var topHeaderHeight = getComputedStyle(document.documentElement).getPropertyValue("--height-top-header");
         document.getElementsByTagName("header")[0].style.transform = "translate(0, calc(-1 * " + topHeaderHeight + "))";
         document.getElementsByTagName("main")[0].style.transform = "translate(0, calc(-1 * " + topHeaderHeight + "))";
         document.getElementById("footer-bar").style.transform = "translate(0, calc(-1 * " + topHeaderHeight + "))";
