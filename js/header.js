@@ -1,5 +1,6 @@
 var prevScrollY = window.scrollY;
 var topHeaderHeight = getComputedStyle(document.documentElement).getPropertyValue("--height-top-header");
+var pageMargin = getComputedStyle(document.documentElement).getPropertyValue("--margin-page");
 
 window.onscroll = function() {
     var currentScrollY = window.scrollY;
@@ -21,7 +22,8 @@ window.onscroll = function() {
 
     // scroll download button if on résumé page
     if (document.URL.includes("resume")) {
-        document.documentElement.style.setProperty("--download-top", currentScrollY + "px");
+        document.getElementById("downlad").style.top = currentScrollY + "px";
+        //document.documentElement.style.setProperty("--download-top", currentScrollY + "px");
     }
 
     prevScrollY = currentScrollY;
