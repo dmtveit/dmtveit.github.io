@@ -36,8 +36,7 @@
     --header-title-bottom-margin: 0.5em;
     --nav-item-margin: 1em;
 
-    --page-margin: 20px;
-    --download-top: 0;
+    --margin-page: 20px;
     /* box-shadow */
     --box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.25);
     /* header animation */
@@ -203,7 +202,7 @@ main {
     min-width: var(--width-main-min);
     max-width: var(--width-main-max);
     margin: auto;
-    padding-bottom: var(--page-margin);
+    padding-bottom: var(--margin-page);
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
@@ -213,7 +212,7 @@ main {
     flex-direction: row;
     justify-content: flex-end;
     padding-right: var(--width-page-info);
-    margin-top: var(--page-margin);
+    margin-top: var(--margin-page);
 }
 .page {
     flex: 1;
@@ -273,13 +272,13 @@ iframe {
 }
 #download {
     position: fixed; /* need this in order to adjust top in script */
-    top: max(calc(var(--download-top) - var(--page-margin)), 0);
+    top: 0;
 
     display: flex;
     flex-direction: row;
     justify-content: center;
     width: var(--width-page-info);
-    margin-top: var(--page-margin);
+    margin-top: var(--margin-page);
     
     font-size: var(--font-size-huge);
     font-family: var(--font);
