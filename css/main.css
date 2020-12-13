@@ -273,7 +273,7 @@ iframe {
 }
 #download {
     position: fixed; /* need this in order to adjust top in script */
-    top: calc(var(--download-top) - var(--page-margin));
+    top: max(calc(var(--download-top) - var(--page-margin)), 0);
 
     display: flex;
     flex-direction: row;
