@@ -271,7 +271,7 @@ iframe {
     height: 0;
 }
 #download {
-    position: fixed; /* need this in order to adjust top in script */
+    /*position: fixed; /* need this in order to adjust top in script */
 
     display: flex;
     flex-direction: row;
