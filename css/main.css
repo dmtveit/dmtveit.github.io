@@ -271,15 +271,16 @@ iframe {
     height: 0;
 }
 #download {
-    /*position: fixed; /* need this in order to adjust top in script */
-
     display: flex;
     flex-direction: row;
     justify-content: center;
     width: var(--width-page-info);
     margin-top: var(--margin-page);
-    
+
     font-size: var(--font-size-huge);
     font-family: var(--font);
     color: var(--color-text);
+
+    /* animation */
+    transition: var(--header-animation);
 }
