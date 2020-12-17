@@ -21,7 +21,7 @@ window.onscroll = function() {
 
     // scroll download button if on résumé page
     if (document.URL.includes("resume")) {
-        document.getElementById("download").style.transform = "translate(0, " + currentScrollY + "px)";
+        document.getElementById("download-container").style.transform = "translate(0, " + currentScrollY + "px)";
     }
 
     prevScrollY = currentScrollY;
