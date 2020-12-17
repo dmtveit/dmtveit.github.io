@@ -265,6 +265,7 @@ iframe {
     height: 0;
 }
 #download-container {
+    position: fixed;
     display: flex;
     flex-direction: row;
     justify-content: center;
