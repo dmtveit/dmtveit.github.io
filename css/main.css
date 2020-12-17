@@ -279,5 +279,5 @@ iframe {
     color: var(--color-text);
 }
 #download:hover {
-    text-decoration: var(--color-link);
+    color: var(--color-link);
 }
