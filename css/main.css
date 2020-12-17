@@ -45,8 +45,6 @@
 
 /* body */
 body {
-    display: flex;
-    flex-direction: column;
     margin: 0;
     padding: 0;
     height: 100vh;
@@ -133,10 +131,6 @@ header {
 footer {
     /* full width footer*/
     width: 100%;
-
-    /* bottom fill */
-    flex: 1;
-
     /* other */
     z-index: 2; /* necessary with translation animation*/
 }
